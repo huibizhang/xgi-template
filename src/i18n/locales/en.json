@@ -1,0 +1,5 @@
+{
+  "common": {
+    "helloWorld": "Vite + Vue 3 + Typescript + Tailwindcss v3"
+  }
+}

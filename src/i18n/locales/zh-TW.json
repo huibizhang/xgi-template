@@ -1,0 +1,5 @@
+{
+  "common": {
+    "helloWorld": "集成 Vite、Vue 3、Typescript 以及 Tailwindcss v3"
+  }
+}

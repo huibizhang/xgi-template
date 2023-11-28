@@ -7,9 +7,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.3.9"
+    "vue": "^3.3.9",
+    "vue-i18n": "^9.8.0"
   },
   "devDependencies": {
+    "@types/node": "^20.10.0",
     "@vitejs/plugin-vue": "^4.5.0",
     "prettier": "^3.1.0",
     "prettier-plugin-tailwindcss": "^0.5.7",
