@@ -1,16 +1,18 @@
 {
+  "name": "xgi-template",
   "version": "0.0.0",
   "scripts": {
-    "dev": "xgi",
-    "build": "vite build",
-    "serve": "vite preview"
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview"
   },
   "dependencies": {
     "vue": "^3.3.9"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.5.0",
-    "@vue/compiler-sfc": "^3.3.9",
+    "prettier": "^3.1.0",
+    "prettier-plugin-tailwindcss": "^0.5.7",
     "typescript": "^5.3.2",
     "vitawind": "^2.3.0",
     "vite": "4.5.0",
